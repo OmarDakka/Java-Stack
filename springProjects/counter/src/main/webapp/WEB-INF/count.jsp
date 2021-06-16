@@ -11,6 +11,6 @@
 <h2>You have visited <a href="/">http://localhost:8080 </a><c:out value="${count}"/> times.</h2>
 <h2><a href="/">Test another visit?</a></h2>
 <h2><a href="/three">WANNA ADD THE COUNTER BY 2? ENTER HERE :3</a></h2>
-<h3><a href="/clear">CLEAR DA SESSION BABY!!</a></h3>
+<h3><a href="/clear">RESET DA COUNTER BABY!!</a></h3>
 </body>
 </html>
