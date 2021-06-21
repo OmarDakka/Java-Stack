@@ -11,7 +11,7 @@
 </head>
 <body>
 <h1>Edit Book</h1>
-	<form:form action="/books/${book.id}" method="put" modelAttribute="book">
+	<form:form action="/books/${book.id}" method="post" modelAttribute="book">
 	    <input type="hidden" name="_method" value="put">
 	    <p>
 	        <form:label path="title">Title</form:label>
